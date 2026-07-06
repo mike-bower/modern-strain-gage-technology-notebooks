@@ -1,0 +1,8 @@
+# Companion notebooks for "Modern Strain Gage Technology: From Analog to AI"
+# Tested with Python 3.11. Google Colab already ships all of these — this file
+# is for running the notebooks locally (e.g. `pip install -r requirements.txt`).
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pandas>=2.0
+scikit-learn>=1.3
