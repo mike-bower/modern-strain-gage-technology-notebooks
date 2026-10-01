@@ -1,24 +1,26 @@
 # Modern Strain Gage Technology — Companion Notebooks
 
-Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From Analog to AI_** by Michael J. Bower. Each notebook accompanies one chapter: it reproduces the chapter's figures and worked examples, and is written to be a starting point you can extend for your own strain-measurement and machine-learning work.
+Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From Analog to AI_** by Michael J. Bower. Each notebook accompanies one chapter (64 of the book's 65 chapters have one): it reproduces the chapter's figures and worked examples, and is written to be a starting point you can extend for your own strain-measurement and machine-learning work.
 
 > **One-click, no install:** click a **Open In Colab** badge below to run any notebook in your browser (free). Or run locally (see *Local setup*).
 
 ## How to use
-- **In Colab (recommended):** click the badge for a chapter. The first cell installs any needed packages; run cells top to bottom. Figures render inline.
-- **Locally:** clone the repo, create an environment, `pip install -r requirements.txt`, then `jupyter lab` and open a notebook.
+- **In Colab (recommended):** click the badge for a chapter and run the cells top to bottom; figures render inline. Colab already includes every library the notebooks use. The first code cell carries a commented-out `pip install` line for other environments.
+- **Locally:** clone the repo, create an environment, `pip install -r requirements.txt` (it includes JupyterLab), then `jupyter lab` and open a notebook.
 - Every notebook is self-contained, seeds its random number generators for reproducibility, and ends with a **"Where to take this next"** section of extension exercises.
 
 ## Notebooks by chapter
 
-**Part I — Why Measurement Matters**
+### Volume I (Chapters 1–34)
+
+**Part I — Listening to Materials: Why Measurement Matters**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
 | 1 | [Engineering Accountability](notebooks/ch01_engineering_accountability.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch01_engineering_accountability.ipynb) |
 | 2 | [Modern Liability](notebooks/ch02_modern_liability.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch02_modern_liability.ipynb) |
 
-**Part II — History of Strain Measurement**
+**Part II — From Intuition to Instrument: A History of Strain Measurement**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
@@ -28,11 +30,11 @@ Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From A
 | 6 | [A Global Instrument](notebooks/ch06_a_global_instrument.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch06_a_global_instrument.ipynb) |
 | 7 | [The Culture of Measurement](notebooks/ch07_culture_of_measurement.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch07_culture_of_measurement.ipynb) |
 | 8 | [War, Aviation, and the Acceleration of Truth](notebooks/ch08_war_aviation_acceleration.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch08_war_aviation_acceleration.ipynb) |
-| 9 | [Strain Gages and Murphy' s Law](notebooks/ch09_murphys_law.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch09_murphys_law.ipynb) |
+| 9 | [Strain Gages and Murphy's Law](notebooks/ch09_murphys_law.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch09_murphys_law.ipynb) |
 | 10 | [From Analog Ritual to Digital Reality](notebooks/ch10_analog_to_digital.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch10_analog_to_digital.ipynb) |
 | 11 | [Intelligent Measurement and the AI Transition](notebooks/ch11_intelligent_measurement.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch11_intelligent_measurement.ipynb) |
 
-**Part III — Stress and Strain**
+**Part III — The Language of Deformation: Stress and Strain**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
@@ -41,12 +43,12 @@ Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From A
 | 14 | [Stress](notebooks/ch14_stress.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch14_stress.ipynb) |
 | 15 | [Stress–Strain Relationships](notebooks/ch15_stress_strain_relationships.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch15_stress_strain_relationships.ipynb) |
 | 16 | [The Stress-Strain Curve](notebooks/ch16_stress_strain_curve.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch16_stress_strain_curve.ipynb) |
-| 17 | [Mohr' s Circle](notebooks/ch17_mohrs_circle.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch17_mohrs_circle.ipynb) |
+| 17 | [Mohr's Circle](notebooks/ch17_mohrs_circle.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch17_mohrs_circle.ipynb) |
 | 18 | [Shear Stress and Strain](notebooks/ch18_shear_stress_and_strain.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch18_shear_stress_and_strain.ipynb) |
 | 19 | [Thermal Effects on Strain](notebooks/ch19_thermal_effects.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch19_thermal_effects.ipynb) |
 | 20 | [Fatigue and Cyclic Loading](notebooks/ch20_fatigue.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch20_fatigue.ipynb) |
 
-**Part IV — The Strain Gage**
+**Part IV — The Translator: The Strain Gage**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
@@ -55,7 +57,7 @@ Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From A
 | 23 | [The Bonded Foil Strain Gage](notebooks/ch23_bonded_foil_strain_gage.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch23_bonded_foil_strain_gage.ipynb) |
 | 24 | [Strain Gage Characteristics](notebooks/ch24_strain_gage_characteristics.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch24_strain_gage_characteristics.ipynb) |
 
-**Part V — Measuring Strain**
+**Part V — Reading the Signal: Measuring Strain**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
@@ -70,7 +72,9 @@ Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From A
 | 33 | [Shock, Transient, and Fatigue Measurement](notebooks/ch33_shock_transient_fatigue.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch33_shock_transient_fatigue.ipynb) |
 | 34 | [Telemetry and Wireless Strain Measurement: Cutting the Wire](notebooks/ch34_telemetry.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch34_telemetry.ipynb) |
 
-**Part VI — Experimental Methods**
+### Volume II (Chapters 35–65)
+
+**Part VI — The Art of the Test: Experimental Methods**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
@@ -79,7 +83,7 @@ Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From A
 | 37 | [Fatigue Measurement Programs: The Arithmetic of Damage](notebooks/ch37_fatigue_measurement.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch37_fatigue_measurement.ipynb) |
 | 38 | [Residual Stress Measurement: The Stress That Stays Behind](notebooks/ch38_residual_stress.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch38_residual_stress.ipynb) |
 
-**Part VII — Strain Gage Based Transducers**
+**Part VII — Instruments of Force: Strain Gage Based Transducers**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
@@ -90,16 +94,17 @@ Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From A
 | 43 | [Completing the Measurement: Compensation, Balance, and Protection](notebooks/ch43_completing_the_measurement.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch43_completing_the_measurement.ipynb) |
 | 44 | [The Instruments: Load Cells, Pressure Transducers, Torque Meters, and Multi-Axis Load Cells](notebooks/ch44_instruments_load_cells.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch44_instruments_load_cells.ipynb) |
 
-**Part VIII — Measurement Uncertainty**
+**Part VIII — How Well Do We Know? Measurement Uncertainty**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
 | 45 | [Uncertainty Fundamentals](notebooks/ch45_uncertainty_fundamentals.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch45_uncertainty_fundamentals.ipynb) |
 | 46 | [Sources of Uncertainty in Strain Measurement](notebooks/ch46_sources_of_uncertainty.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch46_sources_of_uncertainty.ipynb) |
+| 47 | Installation, Environmental, and Cumulative Uncertainty | *no notebook* |
 | 48 | [Uncertainty Propagation](notebooks/ch48_uncertainty_propagation.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch48_uncertainty_propagation.ipynb) |
 | 49 | [Calibration and Traceability](notebooks/ch49_calibration_traceability.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch49_calibration_traceability.ipynb) |
 
-**Part IX — Machine Learning**
+**Part IX — From Data to Insight: Machine Learning**
 
 | Ch | Notebook | Run |
 |---:|----------|-----|
@@ -123,7 +128,7 @@ Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From A
 ## Local setup
 ```bash
 git clone https://github.com/mike-bower/modern-strain-gage-technology-notebooks.git
-cd modern-strain-gage-technology
+cd modern-strain-gage-technology-notebooks
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 jupyter lab
@@ -133,4 +138,4 @@ jupyter lab
 The notebook **code** is released under the [MIT License](LICENSE). The **book** itself — its text and figures — is a separate copyrighted work, (c) 2026 Michael J. Bower, all rights reserved.
 
 ---
-*Generated companion index. To make the Colab badges live, replace `mike-bower/modern-strain-gage-technology-notebooks` throughout this README (and re-run) with your actual GitHub `username/repo` after creating the repository.*
+*Companion notebooks for* Modern Strain Gage Technology: From Analog to AI *by Michael J. Bower, published in two volumes: Volume I (Chapters 1–34) and Volume II (Chapters 35–65). Chapter 47 has no notebook; the other 64 chapters each have one.*
