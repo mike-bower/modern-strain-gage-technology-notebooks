@@ -1,7 +1,4 @@
-__pycache__/
-*.pyc
+notebooks/data/
 .ipynb_checkpoints/
+__pycache__/
 .venv/
-env/
-.DS_Store
-Thumbs.db

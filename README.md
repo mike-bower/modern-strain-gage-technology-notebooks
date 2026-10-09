@@ -1,13 +1,13 @@
 # Modern Strain Gage Technology — Companion Notebooks
 
-Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From Analog to AI_** by Michael J. Bower. Each notebook accompanies one chapter (64 of the book's 65 chapters have one): it reproduces the chapter's figures and worked examples, and is written to be a starting point you can extend for your own strain-measurement and machine-learning work.
+Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From Analog to AI_** by Michael J. Bower. Each of the book's 65 chapters has a notebook: it reproduces the chapter's figures and worked examples, and is written to be a starting point you can extend for your own strain-measurement and machine-learning work.
 
 > **One-click, no install:** click a **Open In Colab** badge below to run any notebook in your browser (free). Or run locally (see *Local setup*).
 
 ## How to use
 - **In Colab (recommended):** click the badge for a chapter and run the cells top to bottom; figures render inline. Colab already includes every library the notebooks use. The first code cell carries a commented-out `pip install` line for other environments.
 - **Locally:** clone the repo, create an environment, `pip install -r requirements.txt` (it includes JupyterLab), then `jupyter lab` and open a notebook.
-- Every notebook is self-contained, seeds its random number generators for reproducibility, and ends with a **"Where to take this next"** section of extension exercises.
+- Every notebook is self-contained except Chapters 55 and 57, which need a public NASA data set (see *Data for Chapters 55 and 57*). Every notebook seeds its random number generators for reproducibility, and ends with a **"Where to take this next"** section of extension exercises.
 
 ## Notebooks by chapter
 
@@ -100,7 +100,7 @@ Runnable Jupyter notebooks for the book **_Modern Strain Gage Technology: From A
 |---:|----------|-----|
 | 45 | [Uncertainty Fundamentals](notebooks/ch45_uncertainty_fundamentals.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch45_uncertainty_fundamentals.ipynb) |
 | 46 | [Sources of Uncertainty in Strain Measurement](notebooks/ch46_sources_of_uncertainty.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch46_sources_of_uncertainty.ipynb) |
-| 47 | Installation, Environmental, and Cumulative Uncertainty | *no notebook* |
+| 47 | [Installation, Environmental, and Cumulative Uncertainty](notebooks/ch47_installation_environmental_uncertainty.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch47_installation_environmental_uncertainty.ipynb) |
 | 48 | [Uncertainty Propagation](notebooks/ch48_uncertainty_propagation.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch48_uncertainty_propagation.ipynb) |
 | 49 | [Calibration and Traceability](notebooks/ch49_calibration_traceability.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mike-bower/modern-strain-gage-technology-notebooks/blob/main/notebooks/ch49_calibration_traceability.ipynb) |
 
@@ -134,8 +134,11 @@ pip install -r requirements.txt
 jupyter lab
 ```
 
+## Data for Chapters 55 and 57
+The Chapter 55 and 57 notebooks use real fatigue data: the NASA Ames / Stanford **CFRP Composites** data set (Saxena, Goebel, Larrosa and Chang, NASA Prognostics Data Repository). It is a 4.6 GB archive and is not included in this repository. Download [Composites.zip](https://phm-datasets.s3.amazonaws.com/NASA/2.+Composites.zip) into `notebooks/data/cfrp/`, or point the environment variable `MSGT_CFRP_DIR` at the folder that holds it. Alternatively, set `DOWNLOAD = True` in the notebook's data cell to fetch it on the first run. Every other notebook runs without external data.
+
 ## License
 The notebook **code** is released under the [MIT License](LICENSE). The **book** itself — its text and figures — is a separate copyrighted work, (c) 2026 Michael J. Bower, all rights reserved.
 
 ---
-*Companion notebooks for* Modern Strain Gage Technology: From Analog to AI *by Michael J. Bower, published in two volumes: Volume I (Chapters 1–34) and Volume II (Chapters 35–65). Chapter 47 has no notebook; the other 64 chapters each have one.*
+*Companion notebooks for* Modern Strain Gage Technology: From Analog to AI *by Michael J. Bower, published in two volumes: Volume I (Chapters 1–34) and Volume II (Chapters 35–65). Every chapter has a notebook.*
